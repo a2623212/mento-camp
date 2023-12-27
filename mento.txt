@@ -1,0 +1,5 @@
+20231227 課前暖身
+1. Git 任務
+  - 安裝Git(V)
+  - 熟悉Git add . commit指令 (V)
+  - 安裝Sourcetree (V)
