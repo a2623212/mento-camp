@@ -3,3 +3,10 @@
   - 安裝Git(V)
   - 熟悉Git add . commit指令 (V)
   - 安裝Sourcetree (V)
+  - 認識GitHub (V)
+  - 介紹SSH （V）
+  - put到GitHub上 (V)
+  -  
+  -
+  -
+  -
