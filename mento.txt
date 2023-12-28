@@ -11,4 +11,7 @@
   - 推到 github pages (V)
   - 從別人的repo去fork一個專案下來（分支feature/`功能名`），然後修改之後發PR給原專案。
 20231228 課前暖身D2
-2. 
+2. Python 安裝
+  - 在Google下載最新的python版本
+  - 在Google下載python的IDE PyCharm (為什麼？vscode不能用嗎？)
+  - 用`print( )`寫了第一個程式XD 終於不是hello world了！
