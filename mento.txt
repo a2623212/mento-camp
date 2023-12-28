@@ -1,4 +1,4 @@
-20231227 課前暖身
+20231227 課前暖身D1
 1. Git 任務
   - 安裝Git(V)
   - 熟悉Git add . commit指令 (V)
@@ -6,7 +6,9 @@
   - 認識GitHub (V)
   - 介紹SSH （V）
   - put到GitHub上 (V)
-  -  
-  -
-  -
-  -
+  - 介紹git branch (V) 
+  - 簡單的vim編輯模式 (?)
+  - 推到 github pages (V)
+  - 從別人的repo去fork一個專案下來（分支feature/`功能名`），然後修改之後發PR給原專案。
+20231228 課前暖身D2
+2. 
