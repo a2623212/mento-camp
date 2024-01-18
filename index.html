@@ -7,8 +7,74 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>My projects in MentoCamp</title>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      #controller {
+        margin-top: 2px;
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+      }
+      .ul-block {
+        float: left;
+      }
+    </style>
   </head>
   <body>
-    <h1>These are my projects in MentoCamp</h1>
+    <h1 id="intro">These are my projects in MentoCamp</h1>
+    <button id="changingColorRed">Red</button>
+    <div id="controller"></div>
+    <div class="ul-block">
+      <ul id="ul-1">
+        <li>abc</li>
+        <li>abc</li>
+        <li>abc</li>
+        <li>abc</li>
+      </ul>
+    </div>
+    <div class="ul-block">
+      <ul id="ul-2">
+        <li>abc</li>
+        <li>abc</li>
+        <li>abc</li>
+        <li>abc</li>
+      </ul>
+    </div>
+    <div class="ul-block">
+      <ul id="ul-3">
+        <li>abc</li>
+        <li>abc</li>
+        <li>abc</li>
+        <li>abc</li>
+      </ul>
+    </div>
+    <script>
+      // 要先用 .ready() 包住程式碼，確認 DOM ok
+      $(document).ready(function () {
+        // 1.選擇被觸發的元件 button (#changingColorRed)
+        // 2.用哪一種「方式」.click 來觸發事件
+        // 3.觸發事件之後的call-back fuction h1(#intro)會變紅色
+        $("#changingColorRed").click(function () {
+          $("#intro").css("color", "red");
+        });
+        // $("#controller").hover(function () {
+        //   console.log("this is a pink!");
+        // });
+
+        // traversal partice
+        $($("#ul-2").siblings()[4]).css("color", "green");
+
+        $(".ul-block")
+          .last()
+          .children()
+          .children()
+          .first()
+          .css("background-color", "orange");
+      });
+    </script>
   </body>
 </html>
